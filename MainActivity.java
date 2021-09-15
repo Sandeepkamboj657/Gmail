@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements
             String personPhotoUrl = acct.getPhotoUrl().toString();
             String email = acct.getEmail();
 
-            Log.e(TAG, "Name: " + personName + ", email: " + email
+            Log.e(TAG, "Name: " + personName + ", email: "
                     + ", Image: " + personPhotoUrl);
 
             txtName.setText(personName);
